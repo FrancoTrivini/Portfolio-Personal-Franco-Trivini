@@ -1,4 +1,19 @@
 @font-face {
     font-family: "Merriweather";
-    src: url(fonts/Merriweather_36pt-Regular.ttf);
+    src: url("fonts/Merriweather_24pt_SemiCondensed-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Merriweather";
+    src: url("fonts/Merriweather_24pt_SemiCondensed-Italic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Merriweather";
+    src: url("fonts/Merriweather_24pt_SemiCondensed-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Merriweather";
+    src: url("fonts/Merriweather_24pt_SemiCondensed-BoldItalic.ttf") format("truetype");
 }
