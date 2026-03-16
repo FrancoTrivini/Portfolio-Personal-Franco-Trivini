@@ -17,28 +17,45 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" href="assets/icono.ico" type="image/x-icon">
 </head>
+
+
+
 <body>
+
+
     <header>
+        
         <nav>
             <menu>
-
+                <a href="#whoAmI">Who am I?</a>
+                <a href="#technologies">Technologies</a>
+                <a href="#myNetworks">My Networks</a>
+                <a href="#contact">Contact</a>
             </menu>
         </nav>
+
+
         <h1>Franco Trivini's Personal Portfolio</h1>
         <h2>My name is Franco and I´m Developer Web Full Stack. Welcome to my portfolio. Thank you for visiting.</h2>
     </header>
+
+
+
     <section class="section_top">
         <div>
             <img src="assets/fotoFran.webp" alt="Foto de Franco Trivini">
         </div>
         <div>
-            <h3>Who am I?</h3>
+            <h3 id="whoAmI">Who am I?</h3>
             <!-- Pequeña auto descripcion -->
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi facilis possimus omnis nam consectetur quod quia suscipit repellendus. Incidunt officia accusamus maiores itaque. Quos, delectus saepe reprehenderit eligendi obcaecati nulla.</p>
         </div>        
     </section>
+
+
+
     <section class="section_bottom">
-        <h2>Technologies</h2>
+        <h2 id="technologies">Technologies</h2>
         <ul>        
             <li><img src="assets/HTML5logo.webp" alt="Logo de HTML5" class="technologyLogos"></li>
             <li><img src="assets/CSS3log.webp" alt="Logo de CSS3" class="technologyLogos"></li>
@@ -49,19 +66,28 @@
         </ul>
     </section>
     
-    <h2>My Networks</h2>
+
+
+    <h2 id="myNetworks">My Networks</h2>
     <ul>        
-        <li><a href="https://www.linkedin.com/in/francotrivini/">Linkedin</a></li>
+        <li><a href="https://www.linkedin.com/in/francotrivini/" rel="noopener noreferrer nofollow" target="_blank">Linkedin</a></li>
         <li><a href="https://www.instagram.com/">Instagram</a></li>
         <li><a href="https://www.youtube.com/">Youtube</a></li>
     </ul>
-    <form class="form" action="">
-        <input class="form_input" type="text" name="userName" placeholder="Write your name." required>
-        <input class="form_input" type="email" name="email" placeholder="Write your email." required>
-        <input class="form_input" type="number" name="numberPhone" placeholder="Write your numberphone - optional." >
-        <input class="form_input form_message" type="text" name="message" placeholder="Leave me your message please." required>
-        <input class="form_input" type="submit" value="Submit form">
+
+
+
+    <form class="form" action="" id="contact">
+        <label for="name">Full Name</label>
+        <input class="form_input" type="text" name="userName" placeholder="Write your name." required id="name">
+        <label for="email">Email</label>
+        <input class="form_input" type="email" name="email" placeholder="Write your email." required id="email">
+        <label for="message">Message</label>
+        <textarea class="form_input form_message" type="text" name="message" placeholder="Leave me your message please..." required maxlength="500" rows="3" id="message"></textarea>
+        <input class="form_input" type="submit" value="Submit form" id="submit">
     </form>
-<ul></ul>
+
+
 </body>
 </html>
+

@@ -37,23 +37,25 @@ h1,h2{
 
 .form{
     width: 80%;
-    height: 40%;
+    height: 20vh;
     margin: 5px 10%;
     padding: 1% 1%;
     background-color: darkgrey;
 }
 .form_input{
-    width: 30%;
+    width: 42%;
     background-color: darkslategray;
-    margin: 5px 1% 5px 1%;
+    margin: auto;
     padding: 5px;
     color: white;
     border-radius: 5px;
 }
 
 .form_message{
-    width: 90%;
-    margin: 5px 0% 5px 1%;
+    margin: auto;
+    resize: none;
+    min-width: 90%;
+    max-width: 90%;
+    font-family: "Merriweather";
+    src: url("fonts/Merriweather_24pt_SemiCondensed-Regular.ttf") format("truetype");
 }
-
-
