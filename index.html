@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- META TAGS BÁSICAS -->>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <meta name="description" content="I'm Franco, a web developer with extensive knowledge in e-commerce and marketing, and I provide comprehensive solutions.">
     <meta name="keywords" content="developer,developer web,marketing,e-commerce,ecommerce,web design">
     <meta name="author" content="Franco Trivini">
-    
+    <!-- META TAGS OG , PARA CUANDO LA PÁGINA ES COMPARTIDA https://metatags.io/ -->
     <meta name="OG:TITTLE" content="Franco Trivini Web Developer">
     <meta name="OG:image" content="https://media.licdn.com/dms/image/v2/D4D03AQE33lZAeh9VSQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1663157578916?e=1775088000&v=beta&t=d9nVY93-HTYvgUyPquDdtwZTqrUMvdw2xjWq16CRj3A">
     <meta name="OG:description" content="I'm Franco, a web developer with extensive knowledge in e-commerce and marketing, and I provide comprehensive solutions.">
-    <meta name="OG:URL" content="https://www.linkedin.com/in/francotrivini/">
+    <meta name="OG:URL" content="https://www.linkedin.com/in/francotrivini/"> <!-- USAR OTRA URL -->>
 
     <title>Porfolio Franco Trivini</title>
 
+    <!-- ESTILOS CSS -->
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="shortcut icon" href="assets/icono.ico" type="image/x-icon">
 </head>
 
@@ -24,7 +27,7 @@
 
 
     <header>
-        
+        <!-- MENÚ Y TITULO -->
         <nav>
             <menu>
                 <a href="#whoAmI">Who am I?</a>
@@ -34,48 +37,52 @@
             </menu>
         </nav>
 
-
+    <!-- TITULO -->
         <h1>Franco Trivini's Personal Portfolio</h1>
         <h2>My name is Franco and I´m Developer Web Full Stack. Welcome to my portfolio. Thank you for visiting.</h2>
     </header>
 
+    <main>    
+        <!-- Esta bien usar un section aqui? Pequeño resumen , pequeña presentacion. Antes de mostrar mis proyectos. -->
+        <section class="section_top">
+            <div>
+                <img src="assets/fotoFran.webp" alt="Foto de Franco Trivini">
+            </div>
+            <div>
+                <h3 id="whoAmI">Who am I?</h3>
+                <!-- Pequeña auto descripcion -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi facilis possimus omnis nam consectetur quod quia suscipit repellendus. Incidunt officia accusamus maiores itaque. Quos, delectus saepe reprehenderit eligendi obcaecati nulla.</p>
+            </div>        
+        </section>
 
 
-    <section class="section_top">
-        <div>
-            <img src="assets/fotoFran.webp" alt="Foto de Franco Trivini">
-        </div>
-        <div>
-            <h3 id="whoAmI">Who am I?</h3>
-            <!-- Pequeña auto descripcion -->
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi facilis possimus omnis nam consectetur quod quia suscipit repellendus. Incidunt officia accusamus maiores itaque. Quos, delectus saepe reprehenderit eligendi obcaecati nulla.</p>
-        </div>        
-    </section>
+        <!-- Tecnologías aprendidas y aplicadas  -->
+        <section class="section_bottom">
+            <h2 id="technologies">Technologies</h2>
+            <ul>        
+                <li><img src="assets/HTML5logo.webp" alt="Logo de HTML5" class="technologyLogos"></li>
+                <li><img src="assets/CSS3log.webp" alt="Logo de CSS3" class="technologyLogos"></li>
+                <li><img src="assets/javascript-logo.webp" alt="Logo de JavaScript" class="technologyLogos"></li>
+                <li><img src="assets/gitlogo.webp" alt="Logo de Git" class="technologyLogos"></li>
+                <li><img src="assets/Pythonlogo.webp" alt="Logo de Python" class="technologyLogos"></li>
+                <li><img src="assets/sql.webp" alt="Logo de SQL" class="technologyLogos"></li>
+            </ul>
+        </section>
+        
+        <!-- Aquí irian mi proyectos, SI TUVIERA PROYECTOS (inserte meme)-->
 
 
 
-    <section class="section_bottom">
-        <h2 id="technologies">Technologies</h2>
+        <!-- Mis redes, debo pulir mis redes para mostrarlas, por ahora solo sirve linkedin -->
+        <h2 id="myNetworks">My Networks</h2>
         <ul>        
-            <li><img src="assets/HTML5logo.webp" alt="Logo de HTML5" class="technologyLogos"></li>
-            <li><img src="assets/CSS3log.webp" alt="Logo de CSS3" class="technologyLogos"></li>
-            <li><img src="assets/javascript-logo.webp" alt="Logo de JavaScript" class="technologyLogos"></li>
-            <li><img src="assets/gitlogo.webp" alt="Logo de Git" class="technologyLogos"></li>
-            <li><img src="assets/Pythonlogo.webp" alt="Logo de Python" class="technologyLogos"></li>
-            <li><img src="assets/sql.webp" alt="Logo de SQL" class="technologyLogos"></li>
+            <li><a href="https://www.linkedin.com/in/francotrivini/" rel="noopener noreferrer nofollow" target="_blank">Linkedin</a></li>
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+            <li><a href="https://www.youtube.com/">Youtube</a></li>
         </ul>
-    </section>
-    
+    </main>
 
-
-    <h2 id="myNetworks">My Networks</h2>
-    <ul>        
-        <li><a href="https://www.linkedin.com/in/francotrivini/" rel="noopener noreferrer nofollow" target="_blank">Linkedin</a></li>
-        <li><a href="https://www.instagram.com/">Instagram</a></li>
-        <li><a href="https://www.youtube.com/">Youtube</a></li>
-    </ul>
-
-
+    <!-- Form de contacto, veremos quien me habla XD -->
 
     <form class="form" action="" id="contact">
         <label for="name">Full Name</label>
@@ -87,7 +94,9 @@
         <input class="form_input" type="submit" value="Submit form" id="submit">
     </form>
 
-
+    <!-- Footer básico -->
+    <footer>
+        <p>Copyright © 2026 Franco Trivini. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
-
