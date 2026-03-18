@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- META TAGS BÁSICAS -->>
+    <!-- META TAGS BÁSICAS -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <meta name="description" content="I'm Franco, a web developer with extensive knowledge in e-commerce and marketing, and I provide comprehensive solutions.">
@@ -11,7 +11,7 @@
     <meta name="OG:TITTLE" content="Franco Trivini Web Developer">
     <meta name="OG:image" content="https://media.licdn.com/dms/image/v2/D4D03AQE33lZAeh9VSQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1663157578916?e=1775088000&v=beta&t=d9nVY93-HTYvgUyPquDdtwZTqrUMvdw2xjWq16CRj3A">
     <meta name="OG:description" content="I'm Franco, a web developer with extensive knowledge in e-commerce and marketing, and I provide comprehensive solutions.">
-    <meta name="OG:URL" content="https://www.linkedin.com/in/francotrivini/"> <!-- USAR OTRA URL -->>
+    <meta name="OG:URL" content="https://www.linkedin.com/in/francotrivini/"> <!-- USAR OTRA URL -->
 
     <title>Porfolio Franco Trivini</title>
 
@@ -26,15 +26,26 @@
 <body>
 
 
-    <header>
-        <!-- MENÚ Y TITULO -->
-        <nav>
-            <menu>
-                <a href="#whoAmI">Who am I?</a>
-                <a href="#technologies">Technologies</a>
-                <a href="#myNetworks">My Networks</a>
-                <a href="#contact">Contact</a>
-            </menu>
+    <header class="header">
+        <!-- MENÚ  -->
+        <nav class="header__nav">
+            <ul class="header__nav__ul">
+                <li class="header__nav__ul__li">
+                    <a class="header__nav__ul__li__a" href="#whoAmI">Who am I?</a>
+                </li>
+                <li class="header__nav__ul__li">
+                    <a class="header__nav__ul__li__a" href="#technologies">Technologies</a>
+                </li>
+                <li class="header__nav__ul__li">
+                    <a class="header__nav__ul__li__a" href="#projects">Projects</a>
+                </li>
+                <li class="header__nav__ul__li">
+                    <a class="header__nav__ul__li__a" href="#myNetworks">My Networks</a>
+                </li>
+                <li class="header__nav__ul__li">
+                    <a class="header__nav__ul__li__a" href="#contact">Contact</a>
+                </li>
+            </ul>
         </nav>
 
     <!-- TITULO -->
@@ -66,21 +77,36 @@
                 <li><img src="assets/gitlogo.webp" alt="Logo de Git" class="technologyLogos"></li>
                 <li><img src="assets/Pythonlogo.webp" alt="Logo de Python" class="technologyLogos"></li>
                 <li><img src="assets/sql.webp" alt="Logo de SQL" class="technologyLogos"></li>
+                <li><img src="assets/Wordpress_logo.webp" alt="Logo de Wordpress" class="technologyLogos"></li>
             </ul>
         </section>
         
         <!-- Aquí irian mi proyectos, SI TUVIERA PROYECTOS (inserte meme)-->
+        <section class="sectionProjects" >
+            <h2 id="projects">Projects</h2>
+            <div>
+                <ul>
+                    <li>Tienda Para Mí</li>
+                    <li>Project2</li>
+                    <li>Project3</li>
+                    <li>Project4</li>
+                    <li>Project5</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
 
 
-
-        <!-- Mis redes, debo pulir mis redes para mostrarlas, por ahora solo sirve linkedin -->
+    <!-- Mis redes, debo pulir mis redes para mostrarlas, por ahora solo sirve linkedin -->
+    <section>
         <h2 id="myNetworks">My Networks</h2>
         <ul>        
             <li><a href="https://www.linkedin.com/in/francotrivini/" rel="noopener noreferrer nofollow" target="_blank">Linkedin</a></li>
             <li><a href="https://www.instagram.com/">Instagram</a></li>
             <li><a href="https://www.youtube.com/">Youtube</a></li>
         </ul>
-    </main>
+    </section>
 
     <!-- Form de contacto, veremos quien me habla XD -->
 
