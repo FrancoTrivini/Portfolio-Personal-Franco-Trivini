@@ -8,16 +8,17 @@ body{
 
 
 
-/*Header*/
+/*----- Header -------*/
 .header{
     background-color: cadetblue;
     width: 80%;
-    height: 70%;
-    align-content: center;
+    height: 25vh;
     margin: 0 auto;
 }
 
-/*MENU*/
+
+/*Menu*/
+
 .header__nav{
     background-color: cadetblue;
     width: 100%;
@@ -48,10 +49,6 @@ body{
     color: rgb(0, 185, 9);
     /*font-size: 1.3rem;*/
 }
-
-
-
-
 /*End of Menu*/
 
 /*Tittle*/
@@ -59,25 +56,56 @@ h1,h2{
     text-align: center;
 }
 /*End of Tittle*/
-/*End of Header */
-
-/*SectionTop*/
+/*----- End of Header -------*/
 
 
 
-
-
-
-/*Main*/
-.section_top{
+/*---------Main--------*/
+.main{
     width: 80%;
-    height: 40%;
-    align-content: center;
-    margin-bottom: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 2vh auto;
+    height: 100vh;
 }
-.section_bottom{
+/*SectionTop*/
+.main__sectionTop{
+    height: 40%;
+    display: flex;
+    align-content: center;
+    justify-content:space-around;
+    
+}
+.main__sectionTop__container{
+    height: 100%;
+    width: 45%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main__sectionTop__container__img{
+    width: auto;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: auto;
+}
+.main__sectionTop__container__h3{
+    padding-left: 2%;
+    font-size: 3rem;
+}
+.main__sectionTop__container__p{
+    font-size: 1.5rem;
+}
+
+/*End of SectionTop*/
+
+
+
+
+
+/*SectionBottom*/
+.main__sectionBottom{
     width: 80%;
     height: 40%;
     align-content: center;
